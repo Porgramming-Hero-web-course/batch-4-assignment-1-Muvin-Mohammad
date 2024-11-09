@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "module": "commonjs",
+    "rootDir": "./src",                /* Set to the src directory */
+    "outDir": "./dist",                /* Output directory */
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],          /* Include all .ts files in src */
+  "exclude": ["node_modules", "dist"]  /* Exclude node_modules and dist folders */
+}
